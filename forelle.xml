@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="forelle" _name="Forelle" version="1.0.0">
+  <author>Brass</author>
+  <_description>Light theme of yellow, green, teal, and pink! Supports LaTeX.</_description>
+
+  <!-- Palette -->
+  <color name="white"   value="#fefefe"/>
+  <color name="white-1" value="#fdfdf5"/>
+  <color name="white-2" value="#fafaed"/>
+  <color name="em-1"    value="#f7efc7"/>
+  <color name="em-2"    value="#8bb48d"/>
+  <color name="em-3"    value="#5a8c6c"/>
+  <color name="em-4"    value="#2f4443"/>
+  <color name="teal-1"  value="#a1cdb0"/>
+  <color name="teal-2"  value="#709395"/>
+  <color name="teal-3"  value="#4a787b"/>
+  <color name="pink-1"  value="#cc867d"/>
+  <color name="pink-2"  value="#a76772"/>
+  <color name="pink-3"  value="#734d5c"/>
+  <color name="pink-4"  value="#383140"/>
+  <color name="yel-1"   value="#e0ba8b"/>
+  <color name="yel-2"   value="#c38252"/>
+  <color name="yel-3"   value="#a1563c"/>
+  <color name="yel-4"   value="#6f342d"/>
+
+  <!-- Global -->
+  <style name="text"                        foreground="em-4" background="white-2"/>
+  <style name="selection"                   background="em-2"/>
+  <style name="line-numbers"                foreground="white-1" background="teal-2"/>
+  <style name="current-line"                background="white-1"/>
+  <style name="current-line-number"         background="teal-3"/>
+  <style name="draw-spaces"                 foreground="em-1"/>
+
+
+  <!-- General -->
+  <style name="bracket-match"               foreground="yel-2" background="em-1" bold="true"/>
+
+  <style name="search-match"                background="em-1"/>
+  <style name="def:comment"                 foreground="teal-3" italic="true"/>
+  <style name="def:special-char"            foreground="em-2"/>
+  <style name="def:statement"               foreground="pink-2" bold="true"/>
+
+  <style name="def:error"                   background="pink-2" bold="true"/>
+  <style name="def:warning"                 background="pink-1"/>
+  <style name="def:net-address"             italic="true" underline="single"/>
+
+
+  <!-- LaTeX  -->
+  <style name="latex:display-math"          foreground="em-3" background="white-1"/>
+  <style name="latex:inline-math"           foreground="em-3" background="white-1" italic="true"/>
+  <style name="latex:math-boundary"         foreground="em-2" bold="true"/>
+
+  <style name="latex:include"               foreground="pink-1" bold="true"/>
+  <style name="latex:included-file"         foreground="pink-1"/>
+  <style name="latex:common-commands"       foreground="em-3" bold="true"/>
+  <style name="latex:command"               foreground="pink-2" bold="true"/>
+  <style name="latex:verbatim"              foreground="yel-3"/>
+
+  <style name="latex:part"                  bold="true"/>
+  <style name="latex:chapter"               bold="true"/>
+  <style name="latex:section"               bold="true"/>
+  <style name="latex:subsection"            italic="true"/>
+  <style name="latex:subsubsection"         italic="true"/>
+  <style name="latex:paragraph"             italic="true"/>
+  <style name="latex:subparagraph"          italic="true"/>
+
+</style-scheme>
