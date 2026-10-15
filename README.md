@@ -11,7 +11,7 @@ Though Forelle works for all GtkSourceView-supportive applications, there are so
 Implemented from version `1.0.0`, Forelle supports LaTeX-specific highlighting!\
 A screenshot of this in action can be seen below, using the LaTeX-editor *Gummi*.
 <p align="center">
-  <img src="images/TeX.png" alt="A screenshot of Gummi using the Forelle theme" width="750">
+  <img src="images/LaTeX.png" alt="A screenshot of Gummi using the Forelle theme" width="750">
 </p>
 
 # How to Install
