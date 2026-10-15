@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \title{\textbf{Forelle} 1.0.0}
+    \author{Brass Glass}
+    \date{}
+    
+    \addtolength{\topmargin}{-3cm}
+    \addtolength{\textheight}{3cm}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\section{Overview}
+Welcome to version 1.0.0 of \textbf{Forelle} — a GtkSourceView\footnote{https://gitlab.gnome.org/GNOME/gtksourceview} (GNOME-based) styling sheet! This style focusses on maintaining a warm palette, using a cream background, teal sidebar, and pink \& green texts.\\
+This syling sheet is inspired off of SurrealEmber’s “Poisson 23” from the platform Lospec\footnote{https://lospec.com/palette-list/poisson-23}. Credit to him for this amazing palette!
+
+\section{Showcase}
+Following are some showcases of Forelle using \LaTeX\:features.\\
+Do this verbatim!
+\begin{verbatim}
+This text is done verbatim.
+If you look to the side, these texts display as typewriter!
+Anything is done verbatim — for example, \LaTeX is not formatted.
+\end{verbatim}
+A multi-line proof detailing the bijection which exists between the Naturals and the Integers via the Cantor-Bernstein-Schröeder Theorem.
+\begin{align*}
+f \colon \mathbb{N} &\to \mathbb{Z}   &  g \colon \mathbb{Z} &\to \mathbb{N}\\
+n &\mapsto n  &  
+n &\mapsto \begin{cases}
+	n & n \equiv 0 \pmod{2}\\
+	-n & n \equiv 1 \pmod{2}
+\end{cases}\\
+\end{align*}
+Therefore, there must exist a bijection between the naturals and integers.\\\\
+Lastly, we will test a simple in-line math. If $25 \cdot 34 \equiv 83 \pmod{16}$, then Gauss didn’t implement the modulo into mathematics properly.\\
+% Oh, and this is a comment! It does not show in the text.
+% This screenshot was taken using Gummi, an offline LaTeX editor. Credit to its creätors!
+% The font in this screenshot is monofur, a rounded monospaced geometric font designed by Tobias Benjamin Köhler. Credit to him!
+
+\section{Closing}
+This is all of Forelle for now! Any feedback is appreciated, and focussed compatability will expand for more GtkSourceView-supportive applications.\\
+Enjoy!
+
+\end{document}
+
