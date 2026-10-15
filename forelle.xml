@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme id="forelle" _name="Forelle" version="1.0.0">
+
+<style-scheme id="forelle" _name="Forelle" version="1.0">
   <author>Brass</author>
   <_description>Light theme of yellow, green, teal, and pink! Supports LaTeX.</_description>
 
